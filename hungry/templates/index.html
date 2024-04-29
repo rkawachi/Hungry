@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry</title>
+    {% load static %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.css">
+</head>
+
+<body class="container">
+    <div class="mb-3 d-flex justify-content-center">
+        <i class="fs-2 bi bi-upload" id="uploadIcon"></i>
+    </div>
+    <form method="post" class="d-flex justify-content-center">
+        <label>
+            <span class="btn btn-primary" id="fileButton">
+                ファイルを選択
+                <input type="file" id="fileInput" style="display:none">
+            </span>
+        </label>
+    </form>
+    <script src="{% static 'script.js' %}"></script>
+</body>
+
+</html>
