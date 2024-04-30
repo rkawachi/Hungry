@@ -1,3 +1,7 @@
+p {
+    color: #9b9b9b;
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #212529 !important;
