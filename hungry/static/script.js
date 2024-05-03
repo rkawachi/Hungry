@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    var dropZone = document.getElementById('uploadIcon');
+    var dropZone = document.getElementById('dropZone');
 
     dropZone.addEventListener('dragover', function (e) {
         e.preventDefault();
